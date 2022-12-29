@@ -56,20 +56,26 @@ P {
 
 .about-section {
   font-family: var(--heading-font-family);
-  padding: 160px 0;
+  padding: 120px 60px;
 }
 
 .about-section h1 {
   font-family: var(--heading-font-family);
-  font-size: 75px;
+  font-size: 64px;
+  line-height: 80px;
   padding: 30px 0;
 }
 
 .about-section h2 {
   font-family: var(--heading-font-family);
-  font-size: 40px;
+  font-size: 20px;
   text-align: left;
-  font-size: bold;
+  padding: 30px 0;
+}
+
+.about-section p {
+  font-family: var(--heading-font-family);
+  font-size: 18px;
   padding: 30px 0;
 }
 
@@ -108,5 +114,14 @@ P {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-section h2 {
+    text-align: center;
+  }
+  .about-section img {
+    padding: 30px 0;
   }
 }
