@@ -101,31 +101,6 @@ P {
   padding: 120px 60px;
 }
 
-@media (max-width: 900px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  h1 {
-    font-size: 72px;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .hero {
-    padding: 80px 20px;
-  }
-  .about-section {
-    text-align: center;
-  }
-  .about-section h2 {
-    text-align: center;
-  }
-  .about-section img {
-    padding: 30px 0;
-  }
-}
-
 .work-section-hero {
   padding: 160px 0;
   text-align: center;
@@ -153,4 +128,70 @@ P {
   background-color: var(--secondary-color);
   margin: 200px;
   border-radius: 10px;
+}
+
+.contact-section {
+  background-color: var(--secondary-color);
+  margin: 200px;
+  border-radius: 10px;
+}
+
+.logo {
+  max-width: 150px;
+}
+
+.logos {
+  max-width: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  line-height: 42px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  font-family: var(--heading-font-family);
+  color: black;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--branding-color);
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-section h2 {
+    text-align: center;
+  }
+  .about-section img {
+    padding: 30px 0;
+  }
 }
